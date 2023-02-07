@@ -1,0 +1,17 @@
+#log{
+    -fx-background-image: url('bgimage2.jpg');
+    -fx-background-size: cover;
+}
+#loger
+{
+    -fx-background-image: url('bgimage.jpg');
+    -fx-background-size: cover;
+}
+#insert{
+    -fx-background-image: url('scene1.jpg');
+    -fx-background-size: cover;
+}
+#side{
+    -fx-background-image: url('Menu.jpg');
+    -fx-background-size: cover;
+}

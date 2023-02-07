@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="Panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1538.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.security_system.HelloController">
+   <left>
+      <VBox id="side" prefHeight="790.0" prefWidth="203.0" stylesheets="@Loginstyle.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="114.0" prefWidth="258.0" text="Menu">
+               <font>
+                  <Font size="50.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="Insert" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Insert" prefHeight="78.0" prefWidth="222.0" style="-fx-border-width: 3; -fx-border-color: gray; -fx-border-radius: 20; -fx-background-radius: 20;" text="Insert">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="Exitdate" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ExitDate" prefHeight="78.0" prefWidth="218.0" style="-fx-border-width: 3; -fx-border-color: gray; -fx-border-radius: 20; -fx-background-radius: 20;" text="Exit Date">
+               <font>
+                  <Font name="Times New Roman" size="36.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="Update" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Update" prefHeight="78.0" prefWidth="218.0" style="-fx-border-width: 3; -fx-border-color: gray; -fx-border-radius: 20; -fx-background-radius: 20;" text="Update">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="Display" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Display" prefHeight="78.0" prefWidth="222.0" style="-fx-border-width: 3; -fx-border-color: gray; -fx-border-radius: 20; -fx-background-radius: 20;" text="Display">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="Exit" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Exit" prefHeight="73.0" prefWidth="254.0" style="-fx-border-width: 3; -fx-border-color: gray; -fx-border-radius: 20; -fx-background-radius: 20;" text="Exit">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="202.0" text="©SECURE'S" textFill="#660b0b">
+               <font>
+                  <Font size="31.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="170.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane id="loger" fx:id="anchor" focusTraversable="true" mouseTransparent="true" prefHeight="740.0" prefWidth="1296.0" stylesheets="@Loginstyle.css" AnchorPane.rightAnchor="-35.59999999999991">
+         <children>
+            <Label alignment="CENTER" layoutX="-3.0" layoutY="708.0" prefHeight="117.0" prefWidth="1324.0" text="COPYRIGHTS ARE RESERVED  @SECURES" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="30.0" prefHeight="86.0" prefWidth="1070.0" text="WELCOME TO SECURITY SYSTEM" textFill="#f7f7f7" AnchorPane.leftAnchor="60.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="63.0" />
+               </font>
+            </Label>
+            <Label layoutX="776.0" layoutY="140.0" prefHeight="90.0" prefWidth="331.0" text="DEVELOPED BY:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="773.0" layoutY="230.0" prefHeight="74.0" prefWidth="402.0" text="Sarvesh Chavan" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="775.0" layoutY="283.0" prefHeight="90.0" prefWidth="410.0" text="Shailendra chaudhari" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="789.0" layoutY="510.0" prefHeight="79.0" prefWidth="331.0" text="Guided by:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="784.0" layoutY="575.0" prefHeight="70.0" prefWidth="341.0" text="Prof. Rahul Patil" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="783.0" layoutY="636.0" prefHeight="59.0" prefWidth="443.0" text="Dr. Manjiri Ranjanikar" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="773.0" layoutY="354.0" prefHeight="79.0" prefWidth="331.0" text="Latikesh Dhomane" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets left="2.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </center>
+</BorderPane>

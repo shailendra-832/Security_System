@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="log" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="654.0" style="-fx-background-radius: 40;" stylesheets="@Loginstyle.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.security_system.HelloController">
+    <children>
+        <VBox layoutX="327.0" prefHeight="416.0" prefWidth="324.0">
+            <children>
+                <HBox prefHeight="122.0" prefWidth="267.0">
+                    <children>
+                        <Label alignment="CENTER" prefHeight="124.0" prefWidth="330.0" text="LOGIN">
+                            <font>
+                                <Font name="System Bold" size="57.0" />
+                            </font>
+                            <textFill>
+                                <LinearGradient endX="1.0" endY="1.0">
+                                    <stops>
+                                        <Stop>
+                                            <color>
+                                                <Color red="0.8631578683853149" green="0.7544639110565186" blue="0.7544639110565186" />
+                                            </color>
+                                        </Stop>
+                                        <Stop offset="1.0">
+                                            <color>
+                                                <Color red="1.0" green="1.0" blue="1.0" />
+                                            </color>
+                                        </Stop>
+                                    </stops>
+                                </LinearGradient>
+                            </textFill>
+                            <padding>
+                                <Insets top="50.0" />
+                            </padding>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="32.0" prefWidth="271.0">
+                    <children>
+                        <TextField fx:id="user" accessibleRole="BUTTON" alignment="CENTER" pickOnBounds="false" promptText="Entre Username" style="-fx-background-color: white; -fx-border-color: white; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-width: 3;">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                            <cursor>
+                                <Cursor fx:constant="TEXT" />
+                            </cursor>
+                        </TextField>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="40.0" />
+                    </VBox.margin>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <PasswordField fx:id="pass" alignment="CENTER" promptText="Enter Password" style="-fx-background-color: white; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: white; -fx-border-width: 3;">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                        </PasswordField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button depthTest="DISABLE" mnemonicParsing="false" onAction="#Login" prefHeight="46.0" prefWidth="111.0" style="-fx-background-color: white; -fx-font-size: 20; -fx-text-fill: black; -fx-background-radius: 8;" text="Login" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" right="30.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button depthTest="DISABLE" mnemonicParsing="false" onAction="#Clear" prefHeight="46.0" prefWidth="111.0" style="-fx-background-color: white; -fx-font-size: 20; -fx-text-fill: black; -fx-background-radius: 8;" text="Clear" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="30.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+    <padding>
+        <Insets right="40.0" />
+    </padding>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+    <cursor>
+        <Cursor fx:constant="DISAPPEAR" />
+    </cursor>
+</AnchorPane>
