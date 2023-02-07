@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1325.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.security_system.tablecontroller">
+   <content>
+      <TableView fx:id="SecurityData" layoutY="2.0" prefHeight="795.0" prefWidth="1301.0">
+         <columns>
+            <TableColumn fx:id="S_No" prefWidth="75.0" resizable="false" text="Serial_No" />
+            <TableColumn fx:id="IType" prefWidth="125.0" resizable="false" text="Id type" />
+            <TableColumn fx:id="INumber" prefWidth="75.0" text="Id-Number" />
+            <TableColumn fx:id="IName" prefWidth="170.0" resizable="false" text="Name" />
+            <TableColumn fx:id="IAge" prefWidth="50.0" resizable="false" text="Age" />
+            <TableColumn fx:id="IEntry_Date" prefWidth="360.0" resizable="false" text="Entry Date-Time " />
+            <TableColumn fx:id="IExit_Date" prefWidth="360.0" resizable="false" text="Exit Date-Time" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </content>
+   <padding>
+      <Insets left="10.0" top="20.0" />
+   </padding>
+</ScrollPane>
